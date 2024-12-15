@@ -13,14 +13,4 @@ export default defineConfig({
       '@assets': path.resolve(__dirname, './src/assets'),
     },
   },
-  build: {
-    outDir: 'dist',
-  },
-  base: '/',
-  server: {
-    port: 3000,
-  },
-  preview: {
-    port: 5000,
-  },
 });
