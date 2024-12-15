@@ -1,0 +1,9 @@
+:root {
+  --body-small: 12px;
+  --body-medium: 16px;
+  --body-large: 20px;
+
+  --display-small: 24px;
+  --display-medium: 32px;
+  --display-large: 48px;
+}
