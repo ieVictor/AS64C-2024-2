@@ -6,15 +6,7 @@
       "config": { "distDir": "dist" }
     }
   ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/html; charset=utf-8"
-        }
-      ]
-    }
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
