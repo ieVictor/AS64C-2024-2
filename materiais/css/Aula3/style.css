@@ -1,0 +1,45 @@
+.pai {
+  position: relative;
+  background-color: red;
+  width: 350px;
+  height: 350px;
+}
+
+.filho {
+  position: fixed;
+  background-color: green;
+  width: 250px;
+  height: 250px;
+  right: 1rem;
+  bottom: 1rem;
+}
+.aulaFlex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: green;
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: gray;
+}
+.flex3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: red;
+}
