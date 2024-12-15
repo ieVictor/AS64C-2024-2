@@ -1,0 +1,86 @@
+.spiderman-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 128px;
+
+  h4 {
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--display-medium);
+    line-height: 120%;
+  }
+
+  > .description {
+    display: flex;
+    flex-direction: column;
+    gap: 32;
+    width: 50%;
+
+    h5 {
+      font-weight: 600;
+      font-size: var(--display-medium);
+      line-height: 185.5%;
+    }
+
+    span {
+      font-weight: 400;
+      font-size: var(--body-medium);
+      line-height: 185.5%;
+    }
+  }
+
+  > .spiderman-image {
+    position: relative;
+
+    #spiderman {
+      width: 100%;
+    }
+
+    #memphis {
+      z-index: -100;
+      position: absolute;
+      top: -80px;
+      right: 60px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .spiderman-section {
+    padding: 128px 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .spiderman-section {
+    padding: 128px 32px;
+
+    > .description {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .spiderman-section {
+    padding: 128px 16px;
+
+    > .description {
+      width: 100%;
+    }
+
+    > .spiderman-image {
+      #spiderman {
+        object-fit: cover;
+        object-position: center;
+        height: 462px;
+      }
+
+      #memphis {
+        right: 40px;
+        top: -60px;
+      }
+    }
+  }
+}

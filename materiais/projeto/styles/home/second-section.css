@@ -1,0 +1,85 @@
+.trending-games {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 32px 128px;
+
+  > .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      font-family: 'Rubik', sans-serif;
+      font-size: var(--display-medium);
+    }
+  }
+
+  > .article-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    > article {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-direction: column;
+
+      > span {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: var(--body-large);
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .trending-games {
+    padding: 32px 64px;
+    > .article-list {
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .trending-games {
+    padding: 32px 32px;
+    > .article-list {
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .trending-games {
+    padding: 32px 16px;
+    gap: 32;
+
+    > .title {
+      h4 {
+        font-size: var(--display-small);
+      }
+      button {
+        display: none;
+      }
+    }
+
+    > .article-list {
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      overflow-x: scroll;
+      gap: 16px;
+    }
+  }
+}

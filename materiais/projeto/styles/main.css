@@ -1,0 +1,9 @@
+@import './fonts.css';
+@import './colors.css';
+@import './style.css';
+@import './components/bubble.css';
+@import './components/header.css';
+@import './components/buttons.css';
+@import './components/footer.css';
+
+@import './home/home.css';
