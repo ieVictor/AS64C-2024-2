@@ -8,6 +8,7 @@
 
 O projeto de desenvolvimento web integra conhecimentos de disciplinas anteriores no curso de Análise e Desenvolvimento de Sistemas. Cada integrante deve cumprir 120 horas de trabalho, algumas das quais podem ser compartilhadas entre os membros. O objetivo é criar um site funcional e responsivo, com funcionalidades como validação de formulários e design responsivo, além de ministrar aulas baseadas no conteúdo desenvolvido.
 
+🔴 **Assista as vídeo aulas: https://cco-utfpr.vercel.app/**<br>
 ---
 
 ## Etapas do Projeto
